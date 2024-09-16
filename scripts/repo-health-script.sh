@@ -15,7 +15,7 @@ fi
 # Get list of repos in given organizations
 ##########################################
 
-pip-sync -q repo_tools/requirements/base.txt
+pip-sync -v repo_tools/requirements/base.txt
 pip install -q -e repo_tools
 cd "$WORKSPACE"
 touch "repositories.txt"
